@@ -34,6 +34,7 @@ sp = spotipy.Spotify(
 user_id = sp.current_user()["id"]
 print(user_id)
 
+
 # Searching Spotify for songs by title
 song_uris = []
 year = date.split("-")[0]
